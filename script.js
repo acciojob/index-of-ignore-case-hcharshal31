@@ -1,4 +1,5 @@
-function indexOfIgnoreCase(s1, s2) {	
+function indexOfIgnoreCase(s1, s2) {
+	if(!s1.includes(s2)) return -1;
 	s1.toLowerCase();
 	s2.toLowerCase();
 
